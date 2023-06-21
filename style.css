@@ -1,0 +1,76 @@
+html {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+
+}
+body {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+nav {
+  background-color: gray;
+  display: flex;
+  background-color: purple;
+  padding: 10px;
+  text-align: center;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+}
+a {
+  color: White;
+  text-decoration: none;
+}
+a:hover {
+  color: brown;
+}
+
+.logo {
+  border: none;
+  border-radius: 100%;
+  width: 5rem;
+}
+
+.logonome {
+  padding-left: 1rem;
+  font-size: 30px;
+  color: white;
+}
+
+.navigacao {
+  display: flex;
+  margin: 0px;
+  background-color: dimgray;
+  border-top: lightgray solid 2px;
+  border-bottom: lightgray solid 2px;
+  padding-left: 0px;
+}
+
+.navigacao li {
+  margin: 0rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-right: 6rem;
+  padding-left: 6rem;
+  border-right: lightgray solid 2px;
+}
+
+.localcadastro {
+  margin-top: 32px;
+}
+
+.login {
+  padding-left: 35rem;
+  padding-right: 2rem;
+}
+
+.cadastro {
+  padding: 1rem;
+  border: black solid 2px;
+  border-radius: 10px;
+  background-color: pink;
+}
