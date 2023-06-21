@@ -41,6 +41,10 @@ a:hover {
   color: white;
 }
 
+.img {
+  width: 10rem;
+}
+
 .navigacao {
   display: flex;
   margin: 0px;
@@ -60,11 +64,11 @@ a:hover {
 }
 
 .localcadastro {
-  margin-top: 32px;
+  margin-top: 2rem;
 }
 
 .login {
-  padding-left: 50rem;
+  padding-left: 82rem;
   padding-right: 2rem;
 }
 
