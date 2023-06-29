@@ -23,10 +23,11 @@ nav {
   position: absolute;
   display: inline-flex;
   flex-direction: row;
-  margin-left: 30%;
+  margin-left: 25%;
 }
 
 nav a{
+  color: black;
   text-decoration: none;
   border-bottom: black 0.1vw solid;
   border-top: aliceblue 0.1vw solid;
@@ -38,7 +39,7 @@ nav a{
 }
 
 nav a:hover {
-  color:aquamarine;
+  color:turquoise;
   animation-name: hovernavstyle;
   animation-duration: 0.6s;
   animation-iteration-count: 1;
@@ -83,6 +84,7 @@ nav a:hover {
 }
 
 .login {
+  color: black;
   border-bottom: black 0.1rem solid;
   border-top: aliceblue 0.1rem solid;
   border-left: aliceblue 1rem solid;
@@ -92,7 +94,7 @@ nav a:hover {
 }
 
 .login:hover {
-  color:aquamarine;
+  color:turquoise;
   animation-name: hovernavstyle;
   animation-duration: 0.4s;
   animation-iteration-count: 1;
@@ -101,10 +103,16 @@ nav a:hover {
 }
 
 .cadastro {
+  color:black;
   background-color: aquamarine;
   padding: 1vw;
   border: solid teal 0.15vw;
   border-radius: 1svw;
+}
+
+.cadastro:hover {
+  background-color: turquoise;
+  border-color: black;
 }
 
 @keyframes hovernavstyle {
