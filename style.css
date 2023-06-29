@@ -12,9 +12,9 @@ header {
   flex-direction: row;
   background-color: aliceblue;
   border-bottom: teal solid 0.2rem;
-  font-size: 1rem;
-  padding-top: 1rem;
-  padding-bottom: 4rem;
+  font-size: 1vw;
+  padding-top: 1vw;
+  padding-bottom: 4vw;
   padding-left: 0.5rem;
   padding-right: 100%;
 }
@@ -26,18 +26,15 @@ nav {
   margin-left: 30%;
 }
 
-nav p {
-}
-
 nav a{
   text-decoration: none;
-  border-bottom: black 0.1rem solid;
-  border-top: aliceblue 0.1rem solid;
-  border-left: aliceblue 0.5rem solid;
-  border-right: aliceblue 0.5rem solid;
-  margin-left: 3rem;
-  padding-top: 0.4rem;
-  padding-bottom: 0.4rem;
+  border-bottom: black 0.1vw solid;
+  border-top: aliceblue 0.1vw solid;
+  border-left: aliceblue 0.5vw solid;
+  border-right: aliceblue 0.5vw solid;
+  margin-left: 5vw;
+  padding-top: 0.4vw;
+  padding-bottom: 0.4vw;
 }
 
 nav a:hover {
@@ -54,8 +51,8 @@ nav a:hover {
 }
 
 .logo {
-  width: 3rem;
-  height: 3rem;
+  width: 3vw;
+  height: 3vw;
   border: none;
   border-radius: 100%;
 }
@@ -65,7 +62,7 @@ nav a:hover {
   padding-top: 0.5rem;
   padding-left: 5%;
   border: none;
-  font-size: 1.5rem;
+  font-size: 1.5vw;
 }
 
 .img {
@@ -76,7 +73,7 @@ nav a:hover {
 .localcadastro {
   display: inline-flex;
   position: absolute;
-  margin-left: 85%;
+  margin-left: 80%;
   margin-right: 0%;
 }
 
@@ -105,9 +102,9 @@ nav a:hover {
 
 .cadastro {
   background-color: aquamarine;
-  padding: 1rem;
-  border: solid teal 0.15rem;
-  border-radius: 10px;
+  padding: 1vw;
+  border: solid teal 0.15vw;
+  border-radius: 1svw;
 }
 
 @keyframes hovernavstyle {
