@@ -2,8 +2,8 @@ html, body {
   margin: 0vw;
   padding: 0vw;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: aliceblue;
   color:black;
+  background-color: aliceblue;
 }
 
 header {
@@ -41,7 +41,7 @@ nav a{
 }
 
 nav a:hover {
-  color:turquoise;
+  color:coral;
   animation-name: hovernavstyle;
   animation-duration: 0.6s;
   animation-iteration-count: 1;
@@ -96,7 +96,7 @@ nav a:hover {
 }
 
 .login:hover {
-  color:turquoise;
+  color:  coral;
   animation-name: hovernavstyle;
   animation-duration: 0.4s;
   animation-iteration-count: 1;
@@ -106,15 +106,14 @@ nav a:hover {
 
 .cadastro {
   color:black;
-  background-color: aquamarine;
+  background-color: transparent;
   padding: 1vw;
   border: solid teal 0.15vw;
   border-radius: 1svw;
 }
 
 .cadastro:hover {
-  background-color: turquoise;
-  border-color: black;
+  background-color: aquamarine;
 }
 
 @keyframes hovernavstyle {
@@ -123,17 +122,13 @@ nav a:hover {
 }
 
 section {
-  background-color: white;
-  margin-right: 10%;
-  margin-left: 10%;
-  margin-top: 0px;
+  width: 100%;
+  margin: 0%;
   padding-top: 5%;
+  padding-bottom: 1%;
+  background-color: azure;
 }
 
-section h1, h2 {
-  text-decoration: none;
-  font-size: 2vw;
-}
 section p, a{
   margin: 0px;
   padding: 0px;
@@ -141,26 +136,90 @@ section p, a{
   font-size: 1vw;
 }
 
-section div {
-  background-color: white;
-  margin-top: 0px;
-  padding: 1vw;
+.herodiv {
+  background-image: linear-gradient(rgb(78, 248, 248), rgb(129, 248, 248), azure);
+  padding-bottom: 6%;
+  padding-top: 2%;
+}
+
+
+.herodiv a:hover {
+  background-color: teal;
+  border-color: teal;
 }
 
 .herotitle {
- font-size: 1.5vw;
+  margin-left: 35%;
+  margin-right: 10%;
+  margin-bottom: 1.5vw;
+  font-size: 2.5vw;
+  font-weight: bold;
+  color: coral;
+}
+
+.antiherotitle {
+  margin-left: 35%;
+  margin-right: 10%;
+  font-size: 2vw;
+  font-weight: bold;
+  color: coral;
+}
+
+.herodiv a {
+  position: static;
+  color: white;
+  background-color: coral;
+  border: 0.2vw coral solid;
+  border-radius: 2rem;
+  padding: 0.8vw;
+  font-size: 1.2vw;
+  font-weight: bold;
+  margin-left: 0%;
+}
+
+.descriptivetext {
+  background-color: transparent;
+  color: black;
+  margin: 0%;
+  margin-top: 0vw;
+  font-size: 1vw;
+  margin-bottom: 2vw;
+  list-style-type:circle;
+}
+
+.descriptivetext div {
+  display: inline-flex;
+  margin: 0%;
+  margin-top: 1vw;
+  margin-left: 0%;
+}
+
+.descriptivetext p {
+  list-style:circle;
+  margin: 0%;
+  padding-right: 5vw;
+  font-weight: bold;
+}
+
+.text1 {
+  margin: 0%;
+  margin-top: 1%;
+}
+
+.heroimg {
+  float:left;
+  margin-left: 10%;
+  width: 26vw;
+  height: 20vw;
 }
 
 footer {
-  position: absolute;
-  display: inline-flex;
-  border-top: 0.2vw teal solid;
   width: 100%;
+  border-top: 0.2vw teal solid;
   background-color: azure;
 }
 
 footer div {
-  position: absolute;
   display: flex;
   margin-left: 15vw;
   margin-top: 0.25%;
@@ -176,13 +235,14 @@ footer div a {
 }
 
 footer div a:hover {
-  color: turquoise;
+  color: coral;
 }
 
 .footerend {
+  background-color: azure;
   position: absolute;
   display: flex;
   font-size: 0.8vw;
-  margin-top: 4%;
-  margin-left: 40vw;
+  padding-left: 40%;
+  padding-right: 40%;
 }
