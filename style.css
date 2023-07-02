@@ -130,7 +130,7 @@ section {
   margin: 0%;
   padding-top: 5%;
   padding-bottom: 5%;
-  background-image: linear-gradient(rgb(143, 255, 255), rgb(129, 248, 248), white, white, white, white, white, white, white);
+  background-image: linear-gradient(rgb(143, 255, 255), rgb(129, 248, 248), white, white, white, white, white, white);
 }
 
 .herodiv {
@@ -157,7 +157,7 @@ section {
   border-radius: 2rem;
   color: white;
   font-size: 1.2vw;
-  font-weight: normal;
+  font-weight: bold;
   text-decoration: none;
 }
 
@@ -177,7 +177,7 @@ section {
   margin: 0%;
   padding-right: 7vw;
   padding-left: 0vw;
-  padding-top: 0.6vw;
+  padding-top: 0.5vw;
   text-align: left;
 }
 
@@ -191,7 +191,7 @@ section {
   margin: 0%;
   padding: 0%;
   font-size: 2.4vw;
-  font-weight: normal;
+  font-weight: bold;
   text-align: left;
   color: coral;
 }
@@ -202,7 +202,7 @@ section {
   margin-bottom: 2%;
   padding: 0%;
   font-size: 2vw;
-  font-weight: normal;
+  font-weight: bold;
   text-align: left;
   color: coral;
 }
@@ -431,6 +431,98 @@ margin-bottom: 5%;
   margin: 0;
   padding: 0;
 }
+
+/*/ AREA DE CONTATO /*/
+
+.contato {
+  margin: 0;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.contato h1 {
+  margin: 0;
+  margin-bottom: 2%;
+  font-size: 2vw;
+  color: teal;
+  font-weight: bold;
+  text-align: center;
+}
+
+.contato h2 {
+  margin: 0;
+  margin-left: 20%;
+  margin-right: 20%;
+ font-size: 1vw;
+  color: coral;
+  font-weight: bold;
+  text-align: left;
+}
+
+.contato h3 {
+  margin: 0;
+ font-size: 1vw;
+  color: coral;
+  font-weight: bold;
+  text-align: left;
+}
+
+form {
+  background-color: aliceblue;
+  margin: 0;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding: 1vw;
+  border: black 0.2vw solid;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+form input {
+  margin: 0;
+  margin-bottom: 5%;
+  margin-left: 20%;
+  margin-right: 20%;
+  border: teal solid 0.2vw;
+  border-radius: 0.25rem;
+  padding: 0.8vw;
+  outline: 0;
+  background-color: whitesmoke;
+}
+
+form input:focus {
+  border-color: aqua;
+}
+
+form textarea {
+  margin: 0;
+  border: teal solid 0.2vw;
+  border-radius: 0.25rem;
+  padding: 0.8vw;
+  outline: 0;
+  background-color: whitesmoke;
+  resize: none;
+}
+
+form textarea:focus {
+  border-color: aqua;
+}
+
+form button {
+  margin: 0;
+  margin-top: 1%;
+  margin-left: 80%;
+  padding: 0.5vw;
+  border: solid teal 0.2vw;
+  border-radius: 1rem;
+  background-color: transparent;
+}
+form button:hover {
+  background-color: aquamarine;
+}
+
+/*/ AREA DO FOOTER /*/
 
 footer {
   width: 100%;
