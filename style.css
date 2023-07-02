@@ -3,7 +3,7 @@ html, body {
   padding: 0vw;
   font-family: Arial, Helvetica, sans-serif;
   color:black;
-  background-color: aliceblue;
+  background-color: white;
 }
 
 header {
@@ -126,7 +126,7 @@ section {
   margin: 0%;
   padding-top: 5%;
   padding-bottom: 1%;
-  background-color: azure;
+  background-color: white;
 }
 
 section p, a{
@@ -137,7 +137,7 @@ section p, a{
 }
 
 .herodiv {
-  background-image: linear-gradient(rgb(78, 248, 248), rgb(129, 248, 248), azure);
+  background-image: linear-gradient(rgb(143, 255, 255), rgb(129, 248, 248), white);
   padding-bottom: 6%;
   padding-top: 2%;
 }
@@ -217,6 +217,7 @@ footer {
   width: 100%;
   border-top: 0.2vw teal solid;
   background-color: azure;
+  padding-bottom: 2vw;
 }
 
 footer div {
@@ -239,10 +240,207 @@ footer div a:hover {
 }
 
 .footerend {
-  background-color: azure;
   position: absolute;
   display: flex;
   font-size: 0.8vw;
   padding-left: 40%;
   padding-right: 40%;
+}
+
+.planosdiv {
+width: auto;
+margin: 0%;
+margin-top: 5%;
+margin-left: 10%;
+margin-right: 10%;
+margin-bottom: 5%;
+}
+
+.planosdiv p {
+  margin: 0%;
+  margin-left: 30%;
+  margin-bottom: 5%;
+  padding: 0%;
+  font-weight: bold;
+  font-size: 2.5vw;
+  color: teal;
+}
+
+.planosdiv h1, h2, h3 {
+  text-align: center;
+  margin: 0%;
+  padding: 0%;
+  font-weight: normal;
+  font-size: 1vw;
+}
+
+.planos {
+  display: inline-flex;
+  margin: 0%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.planogratuito {
+  flex: 1;
+  border: 0.25vw black solid;
+  border-radius: 1rem;
+  margin: 0%;
+  margin-right: 5%;
+  background-color: aliceblue;
+}
+
+.planogratuito p {
+  margin: 0%;
+  padding: 0%;
+  font-weight: normal;
+  font-size: 1vw;
+  color: black;
+  text-align: center;
+}
+
+.planogratuito h1 {
+  color: black;
+  font-size: 2vw;
+  font-weight: bold;
+  margin-bottom: 1.25vw;
+  margin-top: 1vw;
+}
+
+.planogratuito h2 {
+  font-size: 0.9vw;
+  margin-bottom: 1.25vw;
+}
+
+.planogratuito h3 {
+  font-size: 2vw;
+  border-top: black solid 0.15vw;
+  border-bottom: black solid 0.15vw;
+  padding: 0.5vw;
+}
+
+.planobasico {
+  flex: 1;
+  border: 0.25vw teal solid;
+  border-radius: 1rem;
+  margin: 0%;
+  margin-right: 5%;
+  background-color: aliceblue;
+}
+
+.planobasico p {
+  margin: 0%;
+  padding: 0%;
+  font-weight: normal;
+  font-size: 1vw;
+  color: black;
+  text-align: center;
+}
+
+.planobasico h1 {
+  color: teal;
+  font-size: 2vw;
+  font-weight: bold;
+  margin-bottom: 1.25vw;
+  margin-top: 1vw;
+}
+
+.planobasico h2 {
+  font-size: 0.9vw;
+  margin-bottom: 1.25vw;
+  padding-left: 0.1vw;
+  padding-right: 0.1vw;
+}
+
+.planobasico h3 {
+  font-size: 2vw;
+  border-top: teal solid 0.15vw;
+  border-bottom: teal solid 0.15vw;
+  padding: 0.5vw;
+}
+
+
+.planopremium {
+  flex: 1;
+  border: 0.25vw coral solid;
+  border-radius: 1rem;
+  margin: 0%;
+  background-color: aliceblue;
+}
+
+.planopremium p {
+  margin: 0%;
+  padding: 0%;
+  font-weight: normal;
+  font-size: 1vw;
+  color: black;
+  text-align: center;
+}
+
+.planopremium h1 {
+  color: coral;
+  font-size: 2vw;
+  font-weight: bold;
+  margin-bottom: 0.5vw;
+  margin-top: 1vw;
+}
+
+.planopremium h2 {
+  font-size: 0.9vw;
+  margin-bottom: 1vw;
+  padding-right: 1vw;
+  padding-left: 1vw;
+}
+
+.planopremium h3 {
+  font-size: 2vw;
+  border-top: coral solid 0.15vw;
+  border-bottom: coral solid 0.15vw;
+  padding: 0.5vw;
+}
+
+.conteudo {
+  border-collapse: collapse;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+  padding: 0;
+}
+
+.conteudo h1 {
+  font-size: 1.5vw;
+  color: teal;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+.conteudo h2 {
+  font-size: 1.5vw;
+  color: coral;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+.conteudo h3 {
+  font-size: 1.5vw;
+  color: black;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+.conteudo p {
+  text-align: center;
+  font-size: 1vw; 
+  margin: 0;
+  padding: 0;
+}
+
+.conteudo b {
+  font-size: 0.85vw;
+  font-weight: bold; 
+  margin: 0;
+  padding: 0;
 }
