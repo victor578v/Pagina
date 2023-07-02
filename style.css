@@ -445,6 +445,7 @@ margin-bottom: 5%;
   margin-bottom: 2%;
   font-size: 2vw;
   color: teal;
+  font-size: 1vw;
   font-weight: bold;
   text-align: center;
 }
@@ -455,6 +456,7 @@ margin-bottom: 5%;
   margin-right: 20%;
  font-size: 1vw;
   color: coral;
+  font-size: 1vw;
   font-weight: bold;
   text-align: left;
 }
@@ -463,6 +465,7 @@ margin-bottom: 5%;
   margin: 0;
  font-size: 1vw;
   color: coral;
+  font-size: 1vw;
   font-weight: bold;
   text-align: left;
 }
@@ -515,6 +518,7 @@ form button {
   margin-left: 80%;
   padding: 0.5vw;
   border: solid teal 0.2vw;
+  font-size: 1vw;
   border-radius: 1rem;
   background-color: transparent;
 }
